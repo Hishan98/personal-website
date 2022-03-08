@@ -1,0 +1,36 @@
+.cu-hide {
+  display: none !important;
+}
+.cu-show-block {
+  display: block !important;
+}
+.cu-show-flex {
+  display: flex !important;
+}
+.cu-vh-center {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+.cu-txt-100 {
+  font-weight: 100 !important;
+}
+.cu-txt-200 {
+  font-weight: 200 !important;
+}
+.cu-txt-300 {
+  font-weight: 300 !important;
+}
+.cu-txt-400 {
+  font-weight: 400 !important;
+}
+.cu-txt-500 {
+  font-weight: 500 !important;
+}
+.cu-txt-600 {
+  font-weight: 600 !important;
+}
+.cu-txt-700 {
+  font-weight: 700 !important;
+}
