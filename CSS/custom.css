@@ -34,3 +34,109 @@
 .cu-txt-700 {
   font-weight: 700 !important;
 }
+.cu-mx-6 {
+  margin-left: 3.5rem !important;
+  margin-right: 3.5rem !important;
+}
+.cu-mx-7 {
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+}
+.cu-mx-8 {
+  margin-left: 4.5rem !important;
+  margin-right: 4.5rem !important;
+}
+.cu-ml-6 {
+  margin-left: 3.5rem !important;
+}
+.cu-ml-7 {
+  margin-left: 4rem !important;
+}
+.cu-ml-8 {
+  margin-left: 4.5rem !important;
+}
+.cu-mr-6 {
+  margin-right: 3.5rem !important;
+}
+.cu-mr-7 {
+  margin-right: 4rem !important;
+}
+.cu-mr-8 {
+  margin-right: 4.5rem !important;
+}
+
+/* Page CSS */
+body {
+  background-color: #000000 !important;
+  padding: 2% 10%;
+  font-family: "Roboto", sans-serif !important;
+  color: white !important;
+}
+
+p {
+  line-height: 1.2;
+}
+.section-info {
+  height: 100%;
+}
+
+.details {
+  padding-top: 16rem;
+}
+
+.title {
+  font-size: 7.5rem;
+  line-height: 0.9;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.sub-title {
+  font-size: 1.9rem;
+  margin-bottom: 0px;
+  padding-left: 0.4rem;
+  line-height: 0.8;
+  font-weight: 700;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: #9b9b9b;
+  font-weight: 300;
+  padding-left: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.personal-img {
+  width: 32rem;
+  height: 38rem;
+  margin-top: 3rem;
+}
+
+.btn-cu-outline {
+  width: 10rem;
+  height: 3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #5e72e4;
+  color: white;
+  margin: 2rem 0.5rem;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.btn-cu-outline:hover {
+  background-color: #5e72e4;
+  width: 11.5rem;
+  height: 2.9rem;
+}
+
+@media screen and (min-width: 601px) {
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+}
