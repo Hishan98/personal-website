@@ -85,14 +85,14 @@ p {
 }
 
 .title {
-  font-size: 7.5rem;
+  font-size: 7.5vw;
   line-height: 0.9;
   margin-bottom: 1rem;
   font-weight: 900;
 }
 
 .sub-title {
-  font-size: 1.9rem;
+  font-size: 1.9vw;
   margin-bottom: 0px;
   padding-left: 0.4rem;
   line-height: 0.8;
@@ -100,7 +100,7 @@ p {
 }
 
 .content {
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   color: #9b9b9b;
   font-weight: 300;
   padding-left: 0.3rem;
@@ -108,8 +108,9 @@ p {
 }
 
 .personal-img {
-  width: 32rem;
-  height: 38rem;
+  width: 100%;
+  /* max-width: 400px; */
+  height: auto;
   margin-top: 3rem;
 }
 
@@ -137,6 +138,28 @@ p {
 @media screen and (min-width: 601px) {
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .details {
+    padding-top: 6rem;
+  }
+  .title {
+    font-size: 65px;
+  }
+  .sub-title {
+    font-size: 18px;
+    padding-left: 0.15rem;
+    padding-bottom: 0.2rem;
+    font-weight: 400;
+  }
+  .content {
+    font-size: 14px;
+    padding-left: 0.15rem;
+  }
+  .section-info {
+    text-align: center;
+  }
+  .btn-cu-outline {
+    margin: 0.5rem 0.2rem;
+  }
 }
