@@ -132,7 +132,12 @@ p {
   background-color: #5e72e4;
   padding: 0.6rem 3.2rem;
 }
-
+@media (max-width: 481px) {
+  .details {
+    position: absolute;
+    top: 10rem;
+  }
+}
 @media only screen and (max-width: 961px) {
   /* For mobile phones: */
   .details {
