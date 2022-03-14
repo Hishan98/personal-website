@@ -136,13 +136,19 @@ p {
   .details {
     top: 10rem;
   }
+  .container-left {
+    width: 100% !important;
+  }
+  .container-right {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 961px) {
   /* For mobile phones: */
   .details {
     padding-top: 6rem;
-    position: absolute;
-    background-color: #2424241e;
+    /* position: absolute;
+    background-color: #2424241e; */
   }
   .title {
     font-size: 65px;
