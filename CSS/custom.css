@@ -182,15 +182,29 @@ img {
   padding: 0.6rem 3.2rem;
 }
 .cu-btn-ol-lg {
-  /* width: 156px;
-  height: 111px; */
   padding: 1rem 1.8rem;
   margin: 0.5rem 0rem;
   border-color: #5e72e4;
   transition: 0.5s;
   transition-timing-function: ease-in-out;
 }
-.cu-btn-ol-lg:hover {
+
+.cu-btn-ol-round {
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.534);
+  padding: 0.6rem 0.8rem;
+  margin: 0.5rem 0rem;
+  text-align: center;
+  position: relative;
+  left: 12rem;
+  bottom: 6rem;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.footer-right .active {
+  padding: 0.6rem 3rem;
+  border: 1px solid white;
+  background-color: #f9a826f5;
 }
 
 .figma:hover {
@@ -298,6 +312,85 @@ img {
 }
 /* card config :: END */
 
+/* Footer config*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  z-index: 2;
+}
+/* footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  z-index: 2;
+} */
+.footer-signature {
+  position: absolute;
+  left: -8%;
+  width: 573px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.footer-left {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem 5rem;
+}
+.footer-socialM {
+  width: 40px;
+  height: auto;
+}
+
+.footer-rights {
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+}
+.footer-right {
+  height: 100%;
+  width: 100%;
+  padding: 1rem 5rem;
+}
+.footer-right .footer-title,
+.footer-right button {
+  display: inline-block;
+}
+.footer-title {
+  padding-top: 0.7rem;
+  font-size: 30px;
+}
+.footer-hr {
+  -webkit-transform: rotate(90deg);
+  position: relative;
+  border: 0;
+  clear: both;
+  display: block;
+  width: 4rem;
+  left: 8rem;
+  bottom: 2.8rem;
+}
+.behind {
+  position: relative;
+  opacity: 0.2;
+  font-size: 40px;
+  right: 3rem;
+  top: 0rem;
+}
+
+/* card config :: END */
 @media (max-width: 481px) {
   .details {
     top: 10rem;
