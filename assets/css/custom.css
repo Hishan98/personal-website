@@ -1,0 +1,516 @@
+:root {
+  --primaryColor: rgb(0, 0, 0);
+  --secondaryColor: #f0b608;
+  --purpleColor: #5e72e4;
+  --whiteColor: white;
+  --lightGreyColor: #d9d9d9;
+  --darkGreyColor: #171516;
+}
+
+.body {
+  background-color: var(--primaryColor) !important;
+}
+.nav a {
+  cursor: pointer;
+}
+.nav-logo {
+  width: 200px;
+  height: auto;
+}
+.self-banner-image {
+  max-width: 52rem;
+  width: 90%;
+  height: auto;
+}
+.section-header .textArea {
+  margin-top: 25rem;
+  padding-left: 13rem;
+}
+
+.section-header .imageArea {
+  margin-top: 15rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.h3-banner {
+  font-size: 1.8em;
+  padding: 0rem 0.3rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.h1-banner {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  line-height: 7rem;
+}
+
+.btn-banner {
+  border-color: var(--secondaryColor);
+  color: var(--whiteColor);
+  margin-top: 2rem;
+  padding: 0.8rem 3rem;
+  transition: 0.8s;
+}
+
+.btn-banner:hover {
+  background-color: var(--secondaryColor);
+  border-color: var(--whiteColor);
+  color: var(--whiteColor);
+}
+
+.sectionImage {
+  width: 78%;
+  height: auto;
+}
+.progress-title {
+  font-weight: 500;
+  margin-top: 13px;
+  margin-bottom: 0.3rem;
+}
+.progress-container {
+  height: 8px;
+  width: 466px;
+  background-color: var(--lightGreyColor);
+  border-radius: 10px;
+}
+
+.progress-level {
+  position: relative;
+  background-color: var(--secondaryColor);
+  height: 8px;
+  border-radius: 10px;
+}
+
+.bgImage {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  display: block;
+  opacity: 0.08;
+}
+
+.bgImage-half {
+  opacity: 0.08;
+}
+
+.text-yellow {
+  color: var(--secondaryColor) !important;
+}
+
+.qualification {
+  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-bottom: 0.5rem;
+  width: 32rem;
+}
+
+.section-about .col1 {
+  margin: 4rem 0rem;
+  padding-left: 6rem;
+}
+
+.section-about .col2 {
+  margin: 4rem 0rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.small-year {
+  float: left;
+}
+.small-title {
+  font-weight: 500;
+}
+.small-sub-title {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.mini-image {
+  float: left;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 50px;
+  object-fit: scale-down;
+  margin: 1.5rem 1rem 1rem 0rem;
+}
+.mini-image-text {
+  margin: 3.2rem 0rem;
+}
+.mini-image-text .img-title {
+  color: var(--secondaryColor);
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0rem;
+}
+
+.section-about .bgImage-half {
+  background-size: 60%;
+  background-repeat: no-repeat;
+  right: 0px;
+  left: 50vw;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+  display: block;
+}
+.section-services {
+  background-color: var(--darkGreyColor);
+}
+.section-services .content-center {
+  padding-left: 2.5rem;
+}
+.service-card {
+  border: 1px solid var(--whiteColor);
+  border-radius: 8px;
+  width: 31%;
+  height: 100%;
+  padding: 3rem 1rem;
+  margin: auto 1rem 1rem auto;
+  float: left;
+}
+
+.service-card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+.social-title {
+  font-size: 18px;
+  font-weight: 500;
+  float: left;
+  margin-top: 0.55rem;
+}
+.btn-social {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 38px;
+  height: 38px;
+
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-right: 0.8rem;
+
+  transition: 0.8s;
+}
+.btn-social:hover {
+  background-color: var(--secondaryColor);
+}
+
+.btn-contact,
+.btn-submit {
+  border-color: var(--secondaryColor);
+  color: var(--whiteColor);
+  border-radius: 12px;
+  padding: 0.8rem 3rem;
+  transition: 0.9s;
+}
+
+.btn-submit:hover {
+  border-color: var(--whiteColor);
+  background-color: var(--secondaryColor);
+  color: var(--whiteColor);
+  padding: 0.8rem 3.5rem;
+}
+
+.btn-contact .fas {
+  padding-right: 1rem;
+}
+.contact-form-container {
+  width: 56%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.inputText {
+  color: var(--whiteColor);
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 6px;
+  height: 3rem;
+  width: 70%;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+}
+.inputText:focus {
+  color: var(--darkGreyColor);
+  border: 2px solid var(--secondaryColor);
+}
+.textarea-contact {
+  max-height: 10rem !important;
+  width: 70% !important;
+  max-width: 70% !important;
+}
+.section-contact .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* projects page */
+.projects-container {
+  overflow-y: scroll;
+  height: 60vh;
+}
+.projects {
+  margin: 0rem auto 3rem auto;
+  float: none;
+  border: 1px var(--secondaryColor) solid;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+  font-size: 14px;
+}
+.projects .project-bgImage {
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.2;
+  border-radius: 10px;
+}
+
+.projects .project-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.projects .project-image {
+  background-size: cover;
+  height: 100%;
+  width: 80%;
+  border: 1px var(--whiteColor) solid;
+  border-radius: 10px;
+  margin: auto;
+}
+.projects .project-des {
+  padding-top: 0.8rem;
+  padding-bottom: 1rem;
+}
+.projects .project-techTitle {
+  margin-bottom: 0.2rem;
+}
+.projects .project-techText {
+  font-size: 13px;
+  font-weight: 500;
+}
+.projects a {
+  opacity: 1;
+}
+.projects .project-btn {
+  color: var(--whiteColor);
+  background-color: var(--purpleColor);
+  display: inline-block;
+  margin: 0.8rem 0rem;
+  padding: 0.8rem 4.5rem;
+  border: 1px var(--whiteColor) solid;
+  border-radius: 6px;
+  transition: 0.8s;
+}
+
+.project-btn:hover {
+  padding: 0.8rem 4.8rem;
+}
+
+/* Scrollbar Styling */
+.projects-container::-webkit-scrollbar {
+  margin-left: 1rem;
+  width: 10px;
+}
+
+.projects-container::-webkit-scrollbar-track {
+  background-color: #222222;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #9e9e9e;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .section-about .bgImage-half {
+    display: none;
+  }
+}
+
+@media (max-width: 930px) {
+  .section .container {
+    padding-bottom: 2.5rem;
+  }
+  .sectionImage {
+    width: 70%;
+  }
+  .section-header .textArea {
+    margin-top: 10rem;
+    padding-left: 0rem;
+    text-align: center;
+  }
+
+  .section-header .imageArea {
+    margin-top: 0rem;
+    padding-left: 0rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+  }
+  .self-banner-image {
+    width: 55vh;
+    height: auto;
+    opacity: 0.3;
+  }
+  .progress-container {
+    width: 246px;
+    height: 8px;
+    margin: auto;
+  }
+  .progress-level {
+    height: 8px;
+  }
+  .section {
+    text-align: center;
+    justify-content: center;
+  }
+  .qualification {
+    text-align: center;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    width: auto;
+  }
+  .small-year {
+    float: none;
+    display: none;
+  }
+  .mini-image {
+    float: none;
+    margin: 2.8rem auto 0rem auto;
+  }
+  .mini-image-text {
+    margin: 1rem 0rem;
+  }
+
+  .section-about .col1 {
+    margin: 6rem 0rem 1rem 0rem;
+    padding: 0rem 13vw;
+  }
+
+  .section-about .col2 {
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 0rem 13vw;
+  }
+  .section-about .bgImage {
+    top: 10vw;
+    left: 20vw;
+    background-size: 180%;
+  }
+
+  .service-card {
+    float: none;
+    width: 75%;
+    height: 100%;
+    padding: 3rem 1rem;
+    margin: 1.5rem auto;
+  }
+  .contact-form-container {
+    width: 100%;
+  }
+  .btn-social {
+    float: left;
+  }
+  .section-services .content-center {
+    padding-left: 0rem;
+  }
+
+  .section-about .bgImage-half {
+    background-size: 135%;
+    right: 0px;
+    left: 9vw;
+    top: 10vw;
+  }
+  .projects .project-image {
+    display: none;
+  }
+  .project-image-contain {
+    display: none;
+  }
+  .projects-container {
+    height: auto;
+    overflow-y: unset;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .project-data {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .projects-container::-webkit-scrollbar-track {
+    background-color: #222222;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+/* for ipad pro */
+@media (min-width: 930px) and (max-width: 1024px) {
+  .sectionImage {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .qualification {
+    padding-right: 0rem;
+  }
+  .section-about .bgImage-half {
+    top: 5vw;
+    left: 40vw;
+    background-size: 80%;
+  }
+  .section-about .col2 {
+    padding-left: 2rem;
+  }
+  .progress-container {
+    width: 29vw;
+  }
+}
+
+@media (min-width: 1921px) {
+  .self-banner-image {
+    padding-left: 3rem;
+    max-width: 48rem;
+  }
+  .section-header .textArea {
+    padding-left: 49rem;
+    padding-top: 2rem;
+  }
+  .section-header .imageArea {
+    margin-top: 4rem;
+  }
+}
