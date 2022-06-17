@@ -371,16 +371,16 @@
   font-weight: 600;
 }
 .error-text1 {
-  font-size: 2rem;
+  font-size: 4.5rem;
 }
 .error-text {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: auto 20rem;
   color: var(--whiteColor) !important;
 }
 .error-btn {
   display: inline-block;
-  margin: 1rem auto;
+  margin: 2rem auto;
   color: var(--whiteColor) !important;
   border: 1px solid var(--secondaryColor);
   border-radius: 8px;
