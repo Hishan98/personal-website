@@ -12,9 +12,7 @@
     <link href="assets/css/gaia.css" rel="stylesheet" />
 
     <!--     Fonts and icons     -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" type='text/css'>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
@@ -33,8 +31,7 @@
         <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
         <div class="container">
             <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#example">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar bar1"></span>
                     <span class="icon-bar bar2"></span>
@@ -70,21 +67,17 @@
             <div class="container">
                 <div class="row my-5">
                     <div class="text-center mb-4">
-                        <p style="margin-bottom: -0.8rem;" data-aos="fade-right" data-aos-easing="ease-in-sine"
-                            data-aos-duration="1000">Check Out</p>
+                        <p style="margin-bottom: -0.8rem;" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1000">Check Out</p>
                         <h1 class="my-0" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">My
                             Rec<span class="text-yellow">ent W</span>ork</h1>
                     </div>
-                    <div class="projects-container" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000">
+                    <div class="projects-container" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <div class="col-md-11 projects">
-                            <div class="project-bgImage"
-                                style="background-image: url('assets/img/projects/collage.png');"></div>
+                            <div class="project-bgImage" style="background-image: url('assets/img/projects/collage.png');"></div>
                             <p class="project-title">College Management System</p>
                             <div class="row justify-content-center">
                                 <div class="col-md-5 project-image-contain">
-                                    <div class="project-image"
-                                        style="background-image: url('assets/img/projects/collage.png');">
+                                    <div class="project-image" style="background-image: url('assets/img/projects/collage.png');">
                                     </div>
                                 </div>
                                 <div class="col-md-6 project-data">
@@ -104,13 +97,11 @@
                             </div>
                         </div>
                         <div class="col-md-11 projects">
-                            <div class="project-bgImage"
-                                style="background-image: url('assets/img/projects/dbima.png');"></div>
+                            <div class="project-bgImage" style="background-image: url('assets/img/projects/dbima.png');"></div>
                             <p class="project-title">Don Bosco Media Academy Site</p>
                             <div class="row justify-content-center">
                                 <div class="col-md-5 project-image-contain">
-                                    <div class="project-image"
-                                        style="background-image: url('assets/img/projects/dbima.png');">
+                                    <div class="project-image" style="background-image: url('assets/img/projects/dbima.png');">
                                     </div>
                                 </div>
                                 <div class="col-md-6 project-data">
@@ -129,13 +120,11 @@
                             </div>
                         </div>
                         <div class="col-md-11 projects">
-                            <div class="project-bgImage"
-                                style="background-image: url('assets/img/projects/foodsite.png');"></div>
+                            <div class="project-bgImage" style="background-image: url('assets/img/projects/foodsite.png');"></div>
                             <p class="project-title">シターラの天下一品カレーライス Restaurant</p>
                             <div class="row justify-content-center">
                                 <div class="col-md-5 project-image-contain">
-                                    <div class="project-image"
-                                        style="background-image: url('assets/img/projects/foodsite.png');">
+                                    <div class="project-image" style="background-image: url('assets/img/projects/foodsite.png');">
                                     </div>
                                 </div>
                                 <div class="col-md-6 project-data">
@@ -154,13 +143,11 @@
                             </div>
                         </div>
                         <div class="col-md-11 projects">
-                            <div class="project-bgImage"
-                                style="background-image: url('assets/img/projects/cmrTravels.png');"></div>
+                            <div class="project-bgImage" style="background-image: url('assets/img/projects/cmrTravels.png');"></div>
                             <p class="project-title">Shuttel Management System</p>
                             <div class="row justify-content-center">
                                 <div class="col-md-5 project-image-contain">
-                                    <div class="project-image"
-                                        style="background-image: url('assets/img/projects/cmrTravels.png');">
+                                    <div class="project-image" style="background-image: url('assets/img/projects/cmrTravels.png');">
                                     </div>
                                 </div>
                                 <div class="col-md-6 project-data">
@@ -203,7 +190,9 @@
             </div>
             <div class="copyright">
                 ©
-                <script> document.write(new Date().getFullYear()) </script> Hishan Abeysiriwardana, All Rights
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> Hishan Abeysiriwardana, All Rights
                 Recevied
             </div>
         </div>

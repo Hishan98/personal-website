@@ -393,6 +393,7 @@
   padding: 1rem 4rem;
   text-decoration: none;
 }
+
 @media (min-width: 0px) and (max-width: 767px) {
   .section-about .bgImage-half {
     display: none;

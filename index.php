@@ -10,11 +10,10 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/gaia.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!--     Fonts and icons     -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" type='text/css'>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
@@ -23,6 +22,7 @@
 
     <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/common.css" rel="stylesheet">
+    <link href="assets/packages/toastr-master/toastr.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,8 +31,7 @@
         <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
         <div class="container">
             <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#example">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar bar1"></span>
                     <span class="icon-bar bar2"></span>
@@ -49,7 +48,7 @@
                         <a data-scroll="true" data-id="#section-about">ABOUT</a>
                     </li>
                     <li>
-                        <a href="project.html">PROJECTS</a>
+                        <a href="projects">PROJECTS</a>
                     </li>
                     <li>
                         <a data-scroll="true" data-id="#section-contact">CONTACT</a>
@@ -61,21 +60,20 @@
         </div>
     </nav>
 
-    <div class="section section-header" id="section-home" data-aos="fade-up" data-aos-duration="2800">
+    <div class="section section-header" id="section-home">
         <div class="parallax">
             <div class="image" style="background-image: radial-gradient(#2F2F2F, #030101);">
             </div>
             <div class="container">
                 <div class="content">
-                    <div class="row">
+                    <div class="row" data-aos="fade-up" data-aos-duration="2800">
                         <div class="col-md-6 textArea">
                             <h3 class="h3-banner">Hello, it’s me</h3>
                             <h1 class="h1-banner">Hishan</h1>
                             <p>I am A hard-working and dedicated individual with experience in working on web-based
                                 projects.I am an ambitious, driven individual, and I thrive on challenges and
                                 constantly set goals for me, so I have something to strive towards.</p>
-                            <a href="" class="btn btn-banner" data-scroll="true" data-id="#section-contact"
-                                value="CONTACT ME">CONTACT ME</a>
+                            <a href="" class="btn btn-banner" data-scroll="true" data-id="#section-contact" value="CONTACT ME">CONTACT ME</a>
                         </div>
                         <div class="col-md-6 imageArea">
                             <img src="assets/img/hishan.png" alt="Hishan" class="self-banner-image">
@@ -96,12 +94,10 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-6 py-5" data-aos="fade-right" data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <div class="col-md-6 py-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <img src="assets/img/svg/section_1.svg" class="sectionImage" alt="progress svg">
                     </div>
-                    <div class="col-md-6 pt-20" data-aos="fade-left" data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <div class="col-md-6 pt-20" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <p class="mb-0 mt-3">About My Self !</p>
                         <h1 class="mt-0">I am a <span class="text-yellow">Web Developer</span></h1>
                         <p class="my-2">
@@ -147,8 +143,7 @@
         <div class="parallax height-auto">
             <div class="bgImage-half" style="background-image: url('assets/img/signature.png')">
             </div>
-            <div class="container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                data-aos-duration="1000">
+            <div class="container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-md-6 col1">
                         <p class="mb-0 mt-3">About My Self !</p>
@@ -216,15 +211,13 @@
                 <h1 class="my-0 pb-4">What You <span class="text-yellow">Can Get</span> From Me?</h1>
 
                 <div class="content-center">
-                    <div class="service-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000">
+                    <div class="service-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <img src="assets/img/icons/icons8-magazine-50.png" class="pb-2" alt="magazine-icon">
                         <p class="card-title">BUSINESS WEBSITES</p>
                         <p class="card-details">eCommerce websites are all about performance. Let me develop your
                             eCommerce site to convert attention into dollars.</p>
                     </div>
-                    <div class="service-card" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000">
+                    <div class="service-card" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <p class="card-details">
                             Are you planning to build a custom personalized website? Reach out to
                             me to discuss your project idea and requirements.
@@ -233,8 +226,7 @@
                         <img src="assets/img/icons/icons8-hand-with-smartphone-50.png" class="pb-2" alt="magazine-icon">
 
                     </div>
-                    <div class="service-card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        data-aos-duration="1000">
+                    <div class="service-card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <img src="assets/img/icons/icons8-synchronize-50.png" class="pb-2" alt="magazine-icon">
                         <p class="card-title">WEBSITE Maintenance</p>
                         <p class="card-details">Let me worry about your applications' performance, SEO, and Google
@@ -258,17 +250,14 @@
                 <div class="contact-form-container">
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control inputText" id="exampleInputPassword1"
-                                placeholder="Name">
+                            <input type="text" class="form-control inputText" id="exampleInputPassword1" placeholder="Name">
                         </div>
                         <div class="form-group">
 
-                            <input type="email" class="form-control inputText" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Email">
+                            <input type="email" class="form-control inputText" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control inputText textarea-contact" id="exampleFormControlTextarea1"
-                                placeholder="Message" rows="5"></textarea>
+                            <textarea class="form-control inputText textarea-contact" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
                         </div>
                         <button type="submit" class="btn btn-submit">Send Message</button>
                     </form>
@@ -297,13 +286,18 @@
             </div>
             <div class="copyright">
                 ©
-                <script> document.write(new Date().getFullYear()) </script> Hishan Abeysiriwardana, All Rights Recevied
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> Hishan Abeysiriwardana, All Rights Recevied
             </div>
         </div>
     </footer>
 
 </body>
-<script src="assets/js/custom.js"></script>
+
+<!-- toastr -->
+<script src="assets/packages/toastr-master/toastr.min.js"></script>
+
 <!--   core js files    -->
 <script src="assets/js/jquery.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.js" type="text/javascript"></script>
@@ -321,5 +315,7 @@
 <script>
     AOS.init();
 </script>
+
+<script src="assets/js/custom.js"></script>
 
 </html>
