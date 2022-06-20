@@ -41,4 +41,48 @@ function messageAlert(message, title, status) {
     }
 }
 
-messageAlert("Email was sent successfully!", "", "success");
+function contactUsForm() {
+
+    var data = $("#contactUs-form").serialize() + "&contactMessage=true";
+    ajaxRequestSender("POST", "controller-mailer", data);
+}
+
+function ajaxRequestSender(METHOD, URL, DATA) {
+    $.ajax({
+        type: METHOD,
+        url: URL,
+        data: DATA,
+        dataType: "JSON",
+        beforeSend: function () {
+            progressBarToggle(true);
+        },
+        success: function (feedback) {
+            if (feedback.status == 1) {
+                document.getElementById("contactUs-form").reset();
+                messageAlert("Email was sent successfully!", null, "success");
+            } else {
+                messageAlert("Message was not delivered !. Try Again Later.", null, "error");
+            }
+            progressBarToggle(false);
+        },
+        error: function (error) {
+            errorDisplay(error);
+            progressBarToggle(false);
+        },
+    });
+}
+
+function errorDisplay(error) {
+    console.log(error);
+    messageAlert(error, "Error occurred !", "error");
+}
+
+function progressBarToggle(state) {
+    var loader = document.getElementById("page_loader");
+    if (state == true) {
+        loader.style.display = "block";
+    } else {
+        loader.style.display = "none";
+
+    }
+}

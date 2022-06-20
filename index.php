@@ -60,6 +60,9 @@
         </div>
     </nav>
 
+    <div class="loading" id="page_loader">
+    </div>
+
     <div class="section section-header" id="section-home">
         <div class="parallax">
             <div class="image" style="background-image: radial-gradient(#2F2F2F, #030101);">
@@ -248,16 +251,16 @@
                 <h1 class="my-0 pb-4">Contact <span class="text-yellow">Me</span></h1>
 
                 <div class="contact-form-container">
-                    <form>
+                    <form id="contactUs-form" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control inputText" id="exampleInputPassword1" placeholder="Name">
+                            <input type="text" class="form-control inputText" id="exampleInputPassword1" placeholder="Name" required name="contact_name">
                         </div>
                         <div class="form-group">
 
-                            <input type="email" class="form-control inputText" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            <input type="email" class="form-control inputText" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required name="contact_email">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control inputText textarea-contact" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                            <textarea class="form-control inputText textarea-contact" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required name="contact_message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-submit">Send Message</button>
                     </form>
@@ -294,7 +297,12 @@
     </footer>
 
 </body>
-
+<script>
+    $("#contactUs-form").submit(function(event) {
+        contactUsForm();
+        event.preventDefault();
+    });
+</script>
 <!-- toastr -->
 <script src="assets/packages/toastr-master/toastr.min.js"></script>
 
@@ -306,7 +314,7 @@
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
 
 <!--  script for google maps   -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> -->
 
 <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
 <script type="text/javascript" src="assets/js/gaia.js"></script>

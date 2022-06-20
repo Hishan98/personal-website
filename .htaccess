@@ -9,7 +9,7 @@ RewriteRule ^projects$  views/project.php [NC,L]
 #-----------------------------------------------------------------------------------
 
 #-phpMailer-----------------------------------------------------------------------------------
-RewriteRule ^mailer$  controllers/mailer.php [NC,L]
+RewriteRule ^controller-mailer$  controllers/mailer.php [NC,L]
 #-----------------------------------------------------------------------------------
 
 # Return 404 if original request is .php

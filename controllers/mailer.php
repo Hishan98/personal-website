@@ -10,65 +10,78 @@ require 'PHPMailer/Exception.php';
 require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
 
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
+if ($_POST['contactMessage'] && $_POST['contactMessage'] == true) {
+    $name = $_POST['contact_name'];
+    $email = $_POST['contact_email'];
+    $message = $_POST['contact_message'];
+
+    include_once 'PHPMailer/custom_mails/contact_usMail.php';
+
+    sendMail($name, $mailSubject, $mailBody, $mailAltBody);
+} else {
+    echo json_encode(['status' => '0', 'msg' => "Error Occurred"]);
+}
 
 
-$sendersName = 'Hishan';
-$sendersEmail = 'test@gmail.com';
-$mailSubject = "asdasdasd";
-$receiversAddress = "hishansjc@gmail.com";
-$mailBody = 'asdasdasdawdwadsadwa';
+function sendMail($sendersName, $mailSubject, $mailBody, $mailAltBody)
+{
+    //Create an instance; passing `true` enables exceptions
+    $mail = new PHPMailer(true);
+    $sendersEmail = "admin@hishankavishka.com";
+    $receiversAddress = "hishansjc@gmail.com";
 
-try {
-    //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+    try {
+        //Server settings
+        $mail->Timeout       =   60;
+        // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
-    $mail->isSMTP();
-    $mail->Host       = 'mail.hishankavishka.com';
-    $mail->SMTPAuth   = true;
-    $mail->Username   = 'admin@hishankavishka.com';
-    $mail->Password   = 'myPassword';
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-    $mail->Port       = 465;
+        // $mail->isSMTP();
+        // $mail->Host       = 'mail.hishankavishka.com';
+        // $mail->SMTPAuth   = true;
+        // $mail->Username   = 'admin@hishankavishka.com';
+        // $mail->Password   = 'if74q5bh76d';
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        // $mail->Port       = 465;
 
-    // $mail->isSMTP();
-    // $mail->Host = 'ssl0.ovh.net';
-    // $mail->SMTPAuth = true;
-    // $mail->Username = 'dev.test@cagliero.eu';
-    // $mail->Password = 'Test@2022';
-    // $mail->Port = 465;
-    // $mail->SMTPSecure = 'ssl';
+        // $mail->isSMTP();
+        // $mail->Host = 'ssl0.ovh.net';
+        // $mail->SMTPAuth = true;
+        // $mail->Username = 'dev.test@cagliero.eu';
+        // $mail->Password = 'Test@2022';
+        // $mail->Port = 465;
+        // $mail->SMTPSecure = 'ssl';
 
-    // $mail->isSMTP();                                                     
-    // $mail->Host       = 'mail.stfashion-dashboard.com';                  
-    // $mail->SMTPAuth   = true;                                            
-    // $mail->Username   = 'no-reply@stfashion-dashboard.com';              
-    // $mail->Password   = '[i_pzB!]%1pY';                                  
-    // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;                    
-    // $mail->Port       = 465;                                             
+        $mail->isSMTP();
+        $mail->Host       = 'mail.stfashion-dashboard.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'no-reply@stfashion-dashboard.com';
+        $mail->Password   = '[i_pzB!]%1pY';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
 
 
-    //Recipients
-    $mail->setFrom($sendersEmail, $sendersName);
-    $mail->addAddress($receiversAddress);               //Name is optional
+        //Recipients
+        $mail->setFrom($sendersEmail, $sendersName);
+        $mail->addAddress($receiversAddress);               //Name is optional
 
-    // $mail->addReplyTo('info@example.com', 'Information');
-    // $mail->addCC('cc@example.com');
-    // $mail->addBCC('bcc@example.com');
+        // $mail->addReplyTo('info@example.com', 'Information');
+        // $mail->addCC('cc@example.com');
+        // $mail->addBCC('bcc@example.com');
 
-    //Attachments
-    // $mail->addAttachment('/var/tmp/file.tar.gz');        
-    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg'); 
+        //Attachments
+        // $mail->addAttachment('/var/tmp/file.tar.gz');        
+        // $mail->addAttachment('/tmp/image.jpg', 'new.jpg'); 
 
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+        //Content
+        $mail->isHTML(true);                                  //Set email format to HTML
+        $mail->Subject = $mailSubject;
+        $mail->Body    = $mailBody;
+        $mail->AltBody = $mailAltBody;
 
-    $mail->send();
-    echo 'Message has been sent';
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        $mail->send();
+        echo json_encode(['status' => '1', 'msg' => 'Message has been sent']);
+    } catch (Exception $e) {
+        // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        echo json_encode(['status' => '0', 'msg' => $mail->ErrorInfo]);
+    }
 }

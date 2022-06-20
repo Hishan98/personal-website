@@ -42,16 +42,16 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li>
-                        <a href="index.html#section-home">Home</a>
+                        <a href="index#section-home">Home</a>
                     </li>
                     <li>
-                        <a href="index.html#section-about">ABOUT</a>
+                        <a href="index#section-about">ABOUT</a>
                     </li>
                     <li>
                         <a href="#">PROJECTS</a>
                     </li>
                     <li>
-                        <a href="index.html#section-contact">CONTACT</a>
+                        <a href="index#section-contact">CONTACT</a>
                     </li>
 
                 </ul>
