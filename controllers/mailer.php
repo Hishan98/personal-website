@@ -33,15 +33,15 @@ function sendMail($sendersName, $mailSubject, $mailBody, $mailAltBody)
     try {
         //Server settings
         $mail->Timeout       =   60;
-        // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
-        // $mail->isSMTP();
-        // $mail->Host       = 'mail.hishankavishka.com';
-        // $mail->SMTPAuth   = true;
-        // $mail->Username   = 'admin@hishankavishka.com';
-        // $mail->Password   = 'if74q5bh76d';
-        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        // $mail->Port       = 465;
+        // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+        $mail->isSMTP();
+        $mail->Host = 'us100.srilankahosting.com';
+        $mail->SMTPAuth = true;
+        $mail->Username   = 'admin@hishankavishka.com';
+        $mail->Password   = 'if74q5bh76d';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
         // $mail->isSMTP();
         // $mail->Host = 'ssl0.ovh.net';
@@ -51,13 +51,13 @@ function sendMail($sendersName, $mailSubject, $mailBody, $mailAltBody)
         // $mail->Port = 465;
         // $mail->SMTPSecure = 'ssl';
 
-        $mail->isSMTP();
-        $mail->Host       = 'mail.stfashion-dashboard.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'no-reply@stfashion-dashboard.com';
-        $mail->Password   = '[i_pzB!]%1pY';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 465;
+        // $mail->isSMTP();
+        // $mail->Host       = 'mail.stfashion-dashboard.com';
+        // $mail->SMTPAuth   = true;
+        // $mail->Username   = 'no-reply@stfashion-dashboard.com';
+        // $mail->Password   = '[i_pzB!]%1pY';
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        // $mail->Port       = 465;
 
 
         //Recipients

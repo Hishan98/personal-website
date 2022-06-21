@@ -16,4 +16,4 @@ RewriteRule ^controller-mailer$  controllers/mailer.php [NC,L]
 RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
 RewriteRule .* - [L,R=404]
 
-ErrorDocument 404 /personal-website/views/404.php
+ErrorDocument 404 /views/404.php

@@ -73,7 +73,7 @@
                         <div class="col-md-6 textArea">
                             <h3 class="h3-banner">Hello, it’s me</h3>
                             <h1 class="h1-banner">Hishan</h1>
-                            <p>I am A hard-working and dedicated individual with experience in working on web-based
+                            <p>I am a hard-working and dedicated individual with experience in working on web-based
                                 projects.I am an ambitious, driven individual, and I thrive on challenges and
                                 constantly set goals for me, so I have something to strive towards.</p>
                             <a href="" class="btn btn-banner" data-scroll="true" data-id="#section-contact" value="CONTACT ME">CONTACT ME</a>
@@ -149,9 +149,9 @@
             <div class="container" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-md-6 col1">
-                        <p class="mb-0 mt-3">About My Self !</p>
+                        <p class="mb-0 mt-3">About MySelf !</p>
                         <h1 class="my-0">Some History of My Life,</h1>
-                        <h2 class="mb-3 mt-0 w-500">2017 - 2022</h2>
+                        <h2 class="mb-3 mt-0 w-500">2015 - 2022</h2>
 
                         <p>
                             I have been working as a freelancer and an employee in an international company for over
@@ -160,7 +160,7 @@
 
                         <div class="mini-image" style="background-image: url('assets/img/hishan.png')"></div>
                         <div class="mini-image-text">
-                            <p class="img-title">Date Of Birth</p>
+                            <p class="img-title">Date of Birth</p>
                             <p>13, October 1998</p>
                         </div>
                     </div>
@@ -193,8 +193,8 @@
                         <div class="qualification">
                             <p class="small-year pb-5 pr-5">2021</p>
                             <p class="small-title">Cagliero Creative Solutions<br>
-                                <span class="small-sub-title">I have been working as a web developer for past months,
-                                    and I have worked with Angular Js, React Js and Node Js in this
+                                <span class="small-sub-title">I have been working as a web developer for over a year,
+                                    and I have worked with Angular Js and Node Js in this
                                     company.</span>
                             </p>
                         </div>
@@ -211,7 +211,7 @@
         <div class="parallax height-auto">
             <div class="container text-center">
                 <p class="mb-0 mt-3">My Services</p>
-                <h1 class="my-0 pb-4">What You <span class="text-yellow">Can Get</span> From Me?</h1>
+                <h1 class="my-0 pb-4">What Can<span class="text-yellow">You Get</span> From Me?</h1>
 
                 <div class="content-center">
                     <div class="service-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">

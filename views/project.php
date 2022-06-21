@@ -82,9 +82,9 @@
                                 </div>
                                 <div class="col-md-6 project-data">
                                     <p class="project-des">This is a web-based student management system that my
-                                        colleague and myself developed for a France Multimedia College. The main
-                                        functionalities are Manage Payments, Issue Payment Slips, Manage Events and
-                                        lectures, Manage Equipment Rental and Manage their Public site through the
+                                        colleague and myself developed for a multimedia college in France. The main
+                                        functionalities are manage payments, issue payment slips, manage events and
+                                        lectures, manage equipment rental and manage their public site through the
                                         dashboard.
                                     </p>
                                     <p class="project-techTitle">Used Technologies:</p>
@@ -107,8 +107,8 @@
                                 <div class="col-md-6 project-data">
                                     <p class="project-des">This project is wholly created using Angular JS. Dynamic data
                                         in this site are fed from a PHP-based API. The main purpose of this project is
-                                        to let people know about their history, culture, professors, New intakes, and
-                                        Upcoming Events. This project was also developed for a French client.
+                                        to let people know about their history, culture, professors, new intakes, and
+                                        upcoming events. This project was also developed for a French client.
                                     </p>
                                     <p class="project-techTitle">Used Technologies:</p>
                                     <p class="project-techText">Angular Js</p>
@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="col-md-6 project-data">
                                     <p class="project-des">This restaurant website that I created for a client who lives
-                                        in China. This project is basically developed to Get orders from customers,
+                                        in China. This project is basically developed to get orders from customers,
                                         share information about their restaurants, share recipes and share unique Sri
                                         Lankan food experiences with people.
                                     </p>
@@ -144,7 +144,7 @@
                         </div>
                         <div class="col-md-11 projects">
                             <div class="project-bgImage" style="background-image: url('assets/img/projects/cmrTravels.png');"></div>
-                            <p class="project-title">Shuttel Management System</p>
+                            <p class="project-title">Shuttle Management System</p>
                             <div class="row justify-content-center">
                                 <div class="col-md-5 project-image-contain">
                                     <div class="project-image" style="background-image: url('assets/img/projects/cmrTravels.png');">
@@ -152,8 +152,7 @@
                                 </div>
                                 <div class="col-md-6 project-data">
                                     <p class="project-des">This system was developed as a final year project for a
-                                        university student. This project Manages all the registered shuttles and their
-                                        riding time slots, booking time slots, and all the seat bookings.
+                                        university student. This project manages all the registered shuttles and their travel schedules, booking time slots, and all the seat bookings.
                                     </p>
                                     <p class="project-techTitle">Used Technologies:</p>
                                     <p class="project-techText">Pure PHP/ My SQL/ Javascript/ Bootstrap</p>
