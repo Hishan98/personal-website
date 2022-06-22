@@ -43,34 +43,9 @@ function sendMail($sendersName, $mailSubject, $mailBody, $mailAltBody)
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        // $mail->isSMTP();
-        // $mail->Host = 'ssl0.ovh.net';
-        // $mail->SMTPAuth = true;
-        // $mail->Username = 'dev.test@cagliero.eu';
-        // $mail->Password = 'Test@2022';
-        // $mail->Port = 465;
-        // $mail->SMTPSecure = 'ssl';
-
-        // $mail->isSMTP();
-        // $mail->Host       = 'mail.stfashion-dashboard.com';
-        // $mail->SMTPAuth   = true;
-        // $mail->Username   = 'no-reply@stfashion-dashboard.com';
-        // $mail->Password   = '[i_pzB!]%1pY';
-        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        // $mail->Port       = 465;
-
-
         //Recipients
         $mail->setFrom($sendersEmail, $sendersName);
-        $mail->addAddress($receiversAddress);               //Name is optional
-
-        // $mail->addReplyTo('info@example.com', 'Information');
-        // $mail->addCC('cc@example.com');
-        // $mail->addBCC('bcc@example.com');
-
-        //Attachments
-        // $mail->addAttachment('/var/tmp/file.tar.gz');        
-        // $mail->addAttachment('/tmp/image.jpg', 'new.jpg'); 
+        $mail->addAddress($receiversAddress);
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
