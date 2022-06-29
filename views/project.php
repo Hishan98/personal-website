@@ -135,9 +135,9 @@
                                     </p>
                                     <p class="project-techTitle">Used Technologies:</p>
                                     <p class="project-techText">HTML/ Javascript/ Bootstrap</p>
-                                    <a href="https://china-restaurant.netlify.app/" target="_blank" class="project-btn">
-                                        <i class="fas fa-eye pr-1"></i>
-                                        Visit Live Site
+                                    <a href="https://china-restaurant.netlify.app/" target="_blank" class="project-btn btn-disable">
+                                        <i class="fas fa-hammer pr-1"></i>
+                                        Site Under Maintenance
                                     </a>
                                 </div>
                             </div>

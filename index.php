@@ -211,7 +211,7 @@
         <div class="parallax height-auto">
             <div class="container text-center">
                 <p class="mb-0 mt-3">My Services</p>
-                <h1 class="my-0 pb-4">What Can<span class="text-yellow">You Get</span> From Me?</h1>
+                <h1 class="my-0 pb-4">What Can <span class="text-yellow">You Get</span> From Me?</h1>
 
                 <div class="content-center">
                     <div class="service-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
