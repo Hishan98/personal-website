@@ -4,9 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" sizes="450x798" href="assets/img/logo/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo/logo.png" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Projects</title>
+
+    <meta name="description" content="I'm a full-stack web developer living in Sri Lanka. I spend my days with my hands in many
+                            different areas of web development from back-end programming to front-end programming.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Fullstack, Projects, Hishan, Abeysiriwardana, Hishan Abysiriwardana">
+    <meta name="author" content="Hishan Abeysiriwardana">
+
+    <title>Hishan - Projects</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/gaia.css" rel="stylesheet" />
@@ -14,15 +21,9 @@
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" type='text/css'>
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="assets/packages/fontawesome-free-5.15.4-web/css/all.css" />
     <link rel="stylesheet" href="assets/packages/aos/css/aos.css" />
-
-
-    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
-    <link href="assets/css/common.css" rel="stylesheet">
 </head>
 
 <body>

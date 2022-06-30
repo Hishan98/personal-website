@@ -25,12 +25,16 @@ toastr.options = {
 function messageAlert(message, title, status) {
 
     if (status == "success") {
+        toastr.options.positionClass = 'toast-top-right';
         toastr.success(message, title);
     } else if (status == "error") {
+        toastr.options.positionClass = 'toast-top-right';
         toastr.error(message, title);
     } else if (status == "warning") {
+        toastr.options.positionClass = 'toast-top-right';
         toastr.warning(message, title);
     } else if (status == "online") {
+        toastr.options.positionClass = 'toast-bottom-center';
         toastr.success("Connection Restored");
     } else if (status == "offline") {
         toastr.options.positionClass = 'toast-bottom-center';

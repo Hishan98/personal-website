@@ -4,10 +4,17 @@
 <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" sizes="450x798" href="assets/img/logo/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo/logo.png" />
 
+    <meta name="description" content="I am a hard-working and dedicated individual with experience in working on web-based
+                projects.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Fullstack, Hishan, Abeysiriwardana, Hishan Abysiriwardana">
+    <meta name="author" content="Hishan Abeysiriwardana">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Hishan Kavishka</title>
+    <title>Hishan Abeysiriwardana</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/gaia.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -21,7 +28,6 @@
     <link rel="stylesheet" href="assets/packages/aos/css/aos.css" />
 
     <link href="assets/css/custom.css" rel="stylesheet">
-    <link href="assets/css/common.css" rel="stylesheet">
     <link href="assets/packages/toastr-master/toastr.css" rel="stylesheet">
 </head>
 
@@ -312,9 +318,6 @@
 
 <!--  js library for devices recognition -->
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
-
-<!--  script for google maps   -->
-<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> -->
 
 <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
 <script type="text/javascript" src="assets/js/gaia.js"></script>

@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" sizes="450x798" href="assets/img/logo/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo/logo.png" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Projects</title>
+    <title>404</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/packages/particles.js-master/css/style.css" rel="stylesheet" />
