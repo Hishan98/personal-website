@@ -785,7 +785,7 @@ export default function Home() {
             <div className="bg-gray-800 rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
               <div className="relative h-[200px]">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="/swadisht.png?height=200&width=400"
                   alt="Project 1"
                   fill
                   className="object-cover"
@@ -793,27 +793,27 @@ export default function Home() {
               </div>
               <div className="p-6 space-y-4">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-bold">E-Commerce Platform</h3>
+                  <h3 className="text-xl font-bold">Swadidht</h3>
                   <Code className="h-5 w-5 text-purple-500" />
                 </div>
                 <p className="text-gray-400">
-                  A full-stack e-commerce solution with modern UI and secure
-                  payment processing.
+                  A secure restaurant website with integrated payment processing
+                  for seamless online orders.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    React
+                    HTML 5
                   </span>
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    Node.js
+                    PHP
                   </span>
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    MongoDB
+                    MySQL
                   </span>
                 </div>
                 <div className="flex gap-4 pt-2">
                   <Link
-                    href="#"
+                    href="http://swadisht.infinityfreeapp.com/index"
                     className="text-purple-500 hover:text-purple-400 flex items-center"
                   >
                     <ExternalLink className="h-4 w-4 mr-1" />
@@ -827,7 +827,7 @@ export default function Home() {
             <div className="bg-gray-800 rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
               <div className="relative h-[200px]">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="/DbimaDash.png?height=200&width=400"
                   alt="Project 2"
                   fill
                   className="object-cover"
@@ -835,31 +835,34 @@ export default function Home() {
               </div>
               <div className="p-6 space-y-4">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-bold">Mobile App Prototype</h3>
-                  <Layers className="h-5 w-5 text-purple-500" />
+                  <h3 className="text-xl font-bold">DBIMA Dashboard</h3>
+                  <Code className="h-5 w-5 text-purple-500" />
                 </div>
                 <p className="text-gray-400">
-                  Interactive prototype for a fitness tracking mobile
-                  application with user-centered design.
+                  A secure platform managing students, teachers, payments, and
+                  materials in one place.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    Figma
+                    PHP
                   </span>
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    Prototyping
+                    Javascript
                   </span>
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    UI/UX
+                    MySQL
+                  </span>
+                  <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
+                    Bootstrap
                   </span>
                 </div>
                 <div className="flex gap-4 pt-2">
                   <Link
-                    href="#"
+                    href="https://admin.dbima.eu/login"
                     className="text-purple-500 hover:text-purple-400 flex items-center"
                   >
                     <ExternalLink className="h-4 w-4 mr-1" />
-                    View Project
+                    View Live
                   </Link>
                 </div>
               </div>
@@ -869,7 +872,7 @@ export default function Home() {
             <div className="bg-gray-800 rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
               <div className="relative h-[200px]">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="/dbima.png?height=200&width=400"
                   alt="Project 3"
                   fill
                   className="object-cover"
@@ -877,31 +880,31 @@ export default function Home() {
               </div>
               <div className="p-6 space-y-4">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-bold">Dashboard Interface</h3>
+                  <h3 className="text-xl font-bold">DBIMA</h3>
                   <Code className="h-5 w-5 text-purple-500" />
                 </div>
                 <p className="text-gray-400">
-                  Data visualization dashboard with real-time analytics and
-                  responsive design.
+                  International media academy offering hands-on film education
+                  with technology and industry training.
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    Next.js
+                    Angular.js
                   </span>
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    D3.js
+                    Typescript
                   </span>
                   <span className="px-3 py-1 bg-gray-700 rounded-full text-xs">
-                    Tailwind
+                    Rest Api
                   </span>
                 </div>
                 <div className="flex gap-4 pt-2">
                   <Link
-                    href="#"
+                    href="https://www.dbima.eu/"
                     className="text-purple-500 hover:text-purple-400 flex items-center"
                   >
                     <ExternalLink className="h-4 w-4 mr-1" />
-                    View Project
+                    View Live
                   </Link>
                 </div>
               </div>
@@ -933,15 +936,15 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-purple-500 mr-3" />
-                  <span>hishan@example.com</span>
+                  <span>kavishkasjc@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <Linkedin className="h-5 w-5 text-purple-500 mr-3" />
-                  <span>linkedin.com/in/hishan</span>
+                  <span>linkedin.com/in/hishan98</span>
                 </div>
                 <div className="flex items-center">
                   <Github className="h-5 w-5 text-purple-500 mr-3" />
-                  <span>github.com/hishan</span>
+                  <span>github.com/Hishan98</span>
                 </div>
               </div>
             </div>
