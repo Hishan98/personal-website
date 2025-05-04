@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import {
   Github,
   Linkedin,
@@ -23,6 +24,54 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function Home() {
+  //   const [formData, setFormData] = useState({
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //   });
+  //   const [isSubmitting, setIsSubmitting] = useState(false);
+  //   const [submitStatus, setSubmitStatus] = useState(null);
+
+  //   const handleChange = (e) => {
+  //     const { name, value } = e.target;
+  //     setFormData((prev) => ({
+  //       ...prev,
+  //       [name]: value,
+  //     }));
+  //   };
+
+  //   const handleSubmit = async (e) => {
+  //     e.preventDefault();
+  //     setIsSubmitting(true);
+  //     setSubmitStatus(null);
+
+  //     try {
+  //       const response = await fetch("/api/contact", {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         body: JSON.stringify(formData),
+  //       });
+
+  //       const data = await response.json();
+
+  //       if (response.ok) {
+  //         setSubmitStatus({
+  //           success: true,
+  //           message: "Message sent successfully!",
+  //         });
+  //         setFormData({ name: "", email: "", message: "" }); // Reset form
+  //       } else {
+  //         throw new Error(data.message || "Failed to send message");
+  //       }
+  //     } catch (error) {
+  //       setSubmitStatus({ success: false, message: error.message });
+  //     } finally {
+  //       setIsSubmitting(false);
+  //     }
+  //   };
+
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Header - Now Sticky */}
@@ -53,12 +102,12 @@ export default function Home() {
               >
                 Projects
               </Link>
-              <Link
+              {/* <Link
                 href="#contact"
                 className="hover:text-purple-400 transition-colors"
               >
                 Contact
-              </Link>
+              </Link> */}
             </nav>
 
             {/* Mobile Navigation */}
@@ -914,7 +963,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section - Full screen */}
-      <section
+      {/* <section
         id="contact"
         className="min-h-screen flex items-center py-16 bg-gradient-to-b from-black to-gray-900"
       >
@@ -1001,7 +1050,7 @@ export default function Home() {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="py-12 border-t border-gray-800">
